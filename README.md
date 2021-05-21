@@ -59,3 +59,8 @@ def Save_File(path_to_file):
         mm.export_mesh(remote,save_path)
 
 But a mix may come with several objects. So for the processing part we would need to detect new objects and iterate through this list to do hollowing/cutting for each. Doable but maybe not the straight way. 
+
+
+
+
+You may try to compile a standalone .app version yourself which is easy using py2app. Pip install py2app and follow these instructions. Would be interesting to know whether such a compiled .app rises the multi selection issue on Catalina too...
