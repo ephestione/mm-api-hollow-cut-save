@@ -1,8 +1,7 @@
-/*
-Here's a code building a tiny window in your screen's upper right. Hitting its Run button you can select an input file.
+#Here's a code building a tiny window in your screen's upper right. Hitting its Run button you can select an input file.
 
-It automatically appends this object to an existing scene (You might simply open the default plane object), performs its hollowing at 2.5 , cutting at a third of its height and saves the file in the same format adding "_mod" to its name to the same directory as it was loaded from (to avoid an additional SaveTo dialog):
-*/
+#It automatically appends this object to an existing scene (You might simply open the default plane object), performs its hollowing at 2.5 , cutting at a third of its height and saves the file in the same format adding "_mod" to its name to the same directory as it was loaded from (to avoid an additional SaveTo dialog):
+
 from Tkinter import *
 from tkFileDialog   import askopenfilename, asksaveasfilename
 import Tkinter as tk
