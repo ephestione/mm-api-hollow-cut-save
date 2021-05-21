@@ -1,4 +1,7 @@
 # mm-api-hollow-cut-save
+This is a forum thread that I basically saved into a repository, because I plan to use these examples in the future and want to preserve them from the risk of being lost, deleted, edited, whatever.
+
+
 juicy sauce:
 https://forums.autodesk.com/t5/meshmixer/meshmixer-scripting-for-repetive-task/td-p/9274151
 
