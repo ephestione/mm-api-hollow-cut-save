@@ -64,3 +64,20 @@ But a mix may come with several objects. So for the processing part we would nee
 
 
 You may try to compile a standalone .app version yourself which is easy using py2app. Pip install py2app and follow these instructions. Would be interesting to know whether such a compiled .app rises the multi selection issue on Catalina too...
+
+
+
+
+
+Easiest fix of the ImportError:
+
+If you are running your script from ..../mm-api-master/distrib/python ( where test.py is located):
+
+You need to copy the whole mm directory from ..../mm-api-master/python to ..../mm-api-master/distrib/python
+
+
+
+
+I can't find a lot of the commands listed anywhere (even in the html files), so I'm not sure how you know the commands! But thanks
+
+See StoredCommands.h and search for some tool....
